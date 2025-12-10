@@ -259,33 +259,3 @@ Privacy: privacy@namos.taxi
 Support: support@namos.taxi
 
 Data Protection Lead: privacy@namos.taxi
-
-What you still need to do (implementation steps)
-
-Not part of the text above, just instructions for you:
-
-In-app Prominent Disclosure dialog
-
-Make sure your in-app dialog says plainly something along these lines (you can align it with the text above):
-
-“Namo’s Taxi collects and uses your precise location to show nearby drivers, set pickup and dropoff points, calculate routes and ETAs, and allow your driver to find you. If you allow ‘Always’ / background access, we continue to receive location updates during an active trip even when the app is minimized. We do not use your location for ads.”
-
-Add buttons “Allow” and “Not now” (or equivalent) so there is clear affirmative action.
-
-Make the policy accessible in the app
-
-Add a “Privacy Policy” item in your app menu (e.g., Settings, About, or Profile).
-
-Open either:
-
-a WebView pointing to your hosted policy URL, or
-
-an in-app screen showing this text.
-
-Make it accessible from the Play Store listing
-
-Host this exact policy on a public HTTPS URL (e.g., https://namostaxi.com/privacy or whatever domain you actually control).
-
-In the Play Console → App content → Privacy policy, paste that URL.
-
-Make sure the content at that URL is identical (or very close) to what is in the app.
